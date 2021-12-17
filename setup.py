@@ -6,13 +6,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="crash-ipdb",
-    version="0.0.1",
+    version="0.0.2",
     author="Kexin Wang",
     author_email="kexin.wang.2049@gmail.com",
     description="Trigger ipdb whenever Python crashes",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://https://github.com/kwang2049/crash-ipdb",
+    url="https://github.com/kwang2049/crash-ipdb",
     project_urls={
         "Bug Tracker": "https://https://github.com/kwang2049/crash-ipdb/issues",
     },
