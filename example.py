@@ -1,6 +1,6 @@
-import crash_ipdb  # just import crash_ipdb in your entry-point Python code
+import crash_ipdb  # just import crash_ipdb in your Python code
 
-## below is a simple example of when the Python crashes due to some bugs ##
+## simple example of source code to be debugged ##
 x = 1
 y = 0
 
