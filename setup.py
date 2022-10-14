@@ -24,6 +24,6 @@ setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        'ipython==7.34'
+        'ipython==7.34'  # https://stackoverflow.com/questions/73302071/nonetype-error-when-trying-to-use-pdb-via-formmatedtb
     ],
 )
