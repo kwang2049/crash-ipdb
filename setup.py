@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="crash-ipdb",
-    version="0.0.3",
+    version="0.0.4",
     author="Kexin Wang",
     author_email="kexin.wang.2049@gmail.com",
     description="Trigger ipdb whenever Python crashes",
@@ -24,6 +24,6 @@ setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        'ipdb'
+        'ipython==7.34'
     ],
 )
